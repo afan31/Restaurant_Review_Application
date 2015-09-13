@@ -24,5 +24,8 @@ gem 'rails_12factor', group: :production
 gem 'carrierwave'
 #for amazon cloud service
 gem "fog"
+# to enable secure entry in git
 gem "figaro"
+#to resize the images
+gem "mini_magick"
 
