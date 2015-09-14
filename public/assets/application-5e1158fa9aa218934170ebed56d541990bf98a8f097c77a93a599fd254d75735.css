@@ -1,0 +1,50 @@
+/* line 1, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/custom.css.scss */
+.jumbotron {
+  background-color: #fdf5d6;
+  border: 1px solid #f2cb3b;
+}
+/* line 4, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/custom.css.scss */
+.jumbotron h2 {
+  color: #1b5687;
+  font-weight: bold;
+}
+
+/* line 11, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/custom.css.scss */
+.navbar-default .container-fluid {
+  background-color: #583F7E;
+}
+/* line 13, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/custom.css.scss */
+.navbar-default .container-fluid .navbar-nav > li > a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* line 18, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/custom.css.scss */
+.navbar-default .container-fluid .navbar-brand {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Hobo Std';
+  text-shadow: 2px 0 0 #b9d4ea, -2px 0 0 #b9d4ea, 0 2px 0 #b9d4ea, 0 -2px 0 #b9d4ea, 1px 1px #b9d4ea, -1px -1px 0 #b9d4ea, 1px -1px 0 #b9d4ea;
+}
+
+/* line 28, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/custom.css.scss */
+.container-fluid {
+  padding: 10px 120px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
