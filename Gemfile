@@ -28,4 +28,6 @@ gem "fog"
 gem "figaro"
 #to resize the images
 gem "mini_magick"
+#for multiple users
+gem 'devise'
 
