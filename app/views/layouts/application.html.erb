@@ -10,12 +10,24 @@
 <body>
 <%= render 'layouts/navbar' %>
 	<div class="container-fluid">
+
+  <!--This code replaces the deault alerts with bootstrapped styled ones -->
+
+  <% flash.each do |name,msg| %>
+    <% if msg.is_a?(String) %>
+      <div class="alert alert-<%= name == "notice" ? "success" : "danger" %> alert-dismissable">
+        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span>
+        <span class="sr-only">Close</span></button>
+        <%= content_tag :div, msg, :id => "flash_#{name}" %>
+      </div>
+    <% end %>
+  <% end %>
 <!--
 <a href="/pages/about">About</a>
 <a href="/pages/contact">Contact</a>
 -->	
-	<p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+	 <!-- <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p> -->
 	<%= yield %>
 	<%= render 'layouts/footer' %>
 </div>
