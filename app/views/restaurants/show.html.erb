@@ -24,8 +24,7 @@
   		<h3> No reviews yet. Be the first to write one!</h3>
   	<% else %>
 	  	<% @reviews.each do |review| %>
-	  		<div class = "star-rating" data-score= <%= review.rating %> >
-	  		</div>
+	  		<div class="star-rating" data-score= <% review.rating %> ></div>
 	  		<p><%= review.comment %></p>
 		<% end %>
   	<% end %>
