@@ -19,9 +19,11 @@ class ReviewsController < ApplicationController
     @review.user_id = current_user.id
     @review.restaurant_id = @restaurant.id
 
+#restaurant_path(@restaurant) same as @restaurant
+
     respond_to do |format|
       if @review.save
-        format.html { redirect_to root_path, notice: 'Review was successfully created.' }
+        format.html { redirect_to restaurant_path(@restaurant), notice: 'Review was successfully created.' }
         format.json { render :show, status: :created, location: @review }
       else
         format.html { render :new }
