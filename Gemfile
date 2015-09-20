@@ -30,4 +30,6 @@ gem "figaro"
 gem "mini_magick"
 #for multiple users
 gem 'devise'
+# for elastic search
+gem 'searchkick'
 
