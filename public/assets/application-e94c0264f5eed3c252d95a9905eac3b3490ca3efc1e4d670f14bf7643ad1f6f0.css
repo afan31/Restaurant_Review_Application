@@ -1,0 +1,128 @@
+/* line 1, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/custom.css.scss */
+.jumbotron {
+  background-color: #fdf5d6;
+  border: 1px solid #f2cb3b;
+}
+/* line 4, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/custom.css.scss */
+.jumbotron h2 {
+  color: #1b5687;
+  font-weight: bold;
+}
+
+/* line 11, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/custom.css.scss */
+.navbar-default .container-fluid {
+  background-color: #583F7E;
+}
+/* line 13, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/custom.css.scss */
+.navbar-default .container-fluid .navbar-nav > li > a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* line 18, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/custom.css.scss */
+.navbar-default .container-fluid .navbar-brand {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Hobo Std';
+  text-shadow: 2px 0 0 #b9d4ea, -2px 0 0 #b9d4ea, 0 2px 0 #b9d4ea, 0 -2px 0 #b9d4ea, 1px 1px #b9d4ea, -1px -1px 0 #b9d4ea, 1px -1px 0 #b9d4ea;
+}
+
+/* line 28, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/custom.css.scss */
+.container-fluid {
+  padding: 10px 120px;
+}
+/* line 1, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 24, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 28, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 40, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 44, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  display: table;
+}
+
+/* line 49, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 100%;
+  border: 1px solid;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 57, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 68, /Users/Afan/Documents/Projects/yelpdemo/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
