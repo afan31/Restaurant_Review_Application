@@ -1,4 +1,4 @@
-Foodplate - A restaurant review website
+FoodPlate - A restaurant review website
 
 This web application helps users locate their favorite diners, eateries and pastry shops thorugh a very simple user interface. The user can click on a restaurant and find out the reviews and ratings of the restaurant. In addition, one can also create an account and leave their own rating and review on the website.
 
