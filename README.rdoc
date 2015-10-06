@@ -1,28 +1,6 @@
-== README
+Foodplate - A restaurant review website
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+This web application helps users locate their favorite diners, eateries and pastry shops thorugh a very simple user interface. The user can click on a restaurant and find out the reviews and ratings of the restaurant. In addition, one can also create an account and leave their own rating and review on the website. 
+The user is also given the option to quickly browse to a given restaurant by using the search box given in the top of the home page. For faster retrieval of search results, I have applied elastic search here.
+To help users locate the restaurants, I have used Google Maps API in the restaurant show page. 
+The images of the restaurants are stored in Amazon AWS/S3 cloud for a faster load of images in production environment. The application is deployed in Heroku.
